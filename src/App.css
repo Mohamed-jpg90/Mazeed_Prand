@@ -1,38 +1,121 @@
-.App {
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+   /* font-family: "Anton", sans-serif; */
+}
+
+body{
+  background-color:#fcf9ee ;
+
+}
+.theContainer_ofProducts{
+  width: 50%;
+  margin: auto;
   text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+.theContainer_ofProducts .line{
+width: 70px;
+height: 3px;
+background-color: #141414;
+margin-top: 10px;
+margin: auto;
+transition: 0.3s;
+}
+.theContainer_ofProducts:hover .line{
+  width: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ShowAllContainer{
   display: flex;
-  flex-direction: column;
+  justify-content: end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 70%;
+  margin: auto;
+  /* border: 1px solid black; */
+  height: 100px;
+}
+.the_text{
+background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+    color: #141414;
+    font-size: 18px;
+text-decoration: none ;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+
+.the_text::after{
+  content: "";
+  width: 0%;
+  /* transform: scale(0); */
+  height: 3px ;
+  background-color: #141414;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+transition: 0.5s;
+}
+.the_text:hover::after{
+  /* transform: scale(1); */
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.showMoreImage{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  transition: 0.5s;
+margin-left: 20px;
+  transform: rotate(0deg);
+  /* transform: scale(1); */
+
+}
+.img__1{
+  width: 50px;
+  transition: 0.5s;
+}
+.img__2{
+  width: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.showMoreImage:hover{
+  transform: rotate(360deg);
+  /* transform: scale(1.1); */
+margin-left: 10px;
+
+  
+}
+.showMoreImage:hover .img__1{
+ width: 60px;
+}
+
+
+.the__Products{
+  width: 90%;
+   margin-top: 5rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+    /* border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));*/
+    gap: 2rem; 
+    margin: auto;
+}
+.Scroller2{
+  width: 40%;
+  margin: auto;
 }

@@ -1,0 +1,135 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .container_feedBack {
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+      padding: 2rem;
+      margin-top: 120px;
+    }
+
+
+
+    .testimonials {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .testimonial {
+      background-color: #e7d6c4;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      position: relative;
+      margin-bottom: 2rem;
+      transition: 0.5s;
+    }
+    .testimonial:hover{
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      background-color: #444;
+      border-radius: 50%;
+      margin-right: 15px;
+      position: static;
+      top: auto;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .position {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .quote {
+      font-size: 0.9rem;
+      color: #333;
+      line-height: 1.5;
+      padding-right: 20px;
+      
+    }
+
+    .quote::after {
+      content: "”";
+      font-size: 7rem;
+      color: #141414;
+      position: absolute;
+      bottom: -80px;
+      right: 10px;
+      font-family: serif;
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+      
+      .testimonials {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      
+      .testimonial {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 1.5rem;
+      }
+      
+      .profile {
+        margin-bottom: 1rem;
+      }
+      
+      .avatar {
+        width: 40px;
+        height: 40px;
+      }
+      
+      .quote {
+        font-size: 0.85rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .testimonial {
+        padding: 1.2rem;
+      }
+      
+      .name {
+        font-size: 0.95rem;
+      }
+      
+      .position {
+        font-size: 0.8rem;
+      }
+      
+      .quote {
+        font-size: 0.8rem;
+      }
+    }

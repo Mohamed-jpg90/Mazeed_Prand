@@ -1,0 +1,39 @@
+.parallax {
+  position: relative;
+  overflow: hidden;
+  background-color: #ddc92a;
+  padding:  0;
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    border: 3px #141414 solid;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 50px;
+
+}
+
+.scroller {
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -0.02em;
+  /* filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1)); */
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+  color: #141414;
+
+}
+
+.scroller span {
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .scroller {
+    font-size: 30px;
+    line-height: 5rem;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+
+  }
+}
