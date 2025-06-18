@@ -86,7 +86,7 @@
     }
 
     @media (max-width: 768px) {
-      body {
+      .container_feedBack {
         padding: 1rem;
       }
       

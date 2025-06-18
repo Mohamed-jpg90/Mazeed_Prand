@@ -14,28 +14,25 @@ function section2() {
 
       <div className='top_section' >
 
-        <div className='div_imag'>
+        <div className='div_imag div_img_1'>
           <img src={img_1} alt='img_1' />
         </div>
 
-        <div className='div_imag'>
+        <div className='div_imag div_img_1'>
           <img src={img_2} alt='img_2' />
         </div>
 
       </div>
       <div className='bottom_section' >
 
-        <Button padding={100} disabled={false} magnetStrength={200} >
+        <Button padding={70} disabled={false} magnetStrength={200} >
           <div className='the_button'>
             <div className='thetext'>
             <Link to="/" className='link' > <p>MAZEED_</p> 
                 <FaInstagram className='instgram' />
                 </Link>
 
-        
-              {/* <img src={Explore} alt='mohamedMaged' className='img1' />
-              <img src={Explore2} alt='MohamedMaged' className='img2' /> */}
-    
+
             </div>
 
 

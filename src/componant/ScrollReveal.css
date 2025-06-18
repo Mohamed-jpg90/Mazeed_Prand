@@ -13,3 +13,9 @@
 .word {
   display: inline-block;
 }
+@media(max-width:720){
+  .scroll-reveal
+  {
+    padding: 0px 0px 0px 0px;
+  }
+}

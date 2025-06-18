@@ -49,11 +49,9 @@
   transform-origin: center center;
 }
 
-body {
-  overflow-x: hidden;
-}
 
-h1 {
+
+.page-wrap h1 {
   margin: 0;
   font-size: clamp(48px, 10vw, 148px);
   line-height: 1;
@@ -88,5 +86,8 @@ transform: translate(251px, 120px);
   left: 50%;
 transform: translate(60%, 220%);
   z-index: 10;
+}
+.page-wrap{
+  margin-top: 0px;
 }
 }

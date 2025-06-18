@@ -82,7 +82,7 @@ function Home2() {
         <div className='line'></div>
       </div>
 
-      <Services />
+        <Services />
 
       <br />
       <br />

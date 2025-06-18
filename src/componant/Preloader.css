@@ -75,3 +75,17 @@
     opacity: 1;
   }
 }
+
+
+@media (max-width: 600px) {
+  .circle {
+    width: 4rem;
+    height: 4rem;
+    margin-block-end: 1.5rem;
+  }
+  .preload .text {
+    font-size: min(2rem, 8vw);
+    letter-spacing: 0.3rem;
+    margin-left: 0.5rem;
+  }
+}
