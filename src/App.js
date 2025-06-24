@@ -32,7 +32,7 @@ useEffect(() => {
   }, []);
 
   return (
-    <div className="App">
+    <>
       <Router>
         <Preloader/>
         <Navebar />
@@ -43,7 +43,7 @@ useEffect(() => {
         </Routes>
         <Footer/>
       </Router>
-    </div>
+    </>
   );
 }
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
  import './Navebar.css'
 function Navebar() {
   return (
-    <div className='the_container'>
+    <div className='the_container1'>
     <div className='container-navbar'>
       
         <div className='header-wrap h-left' >

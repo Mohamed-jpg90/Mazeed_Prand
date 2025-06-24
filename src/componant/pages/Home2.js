@@ -14,7 +14,7 @@ import Services from '../Services'
 
 function Home2() {
   return (
-    <div>
+    <>
       <Preloader />
 
       <Move FName="MAZEED" SName="CONCRETE" />
@@ -98,7 +98,7 @@ function Home2() {
 
 
 
-    </div>
+    </>
   )
 }
 

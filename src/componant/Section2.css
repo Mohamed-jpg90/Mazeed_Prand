@@ -1,4 +1,11 @@
-.div_imag{
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+.div_imag {
     width: 348.88px;
     height: 486.52px;
 
@@ -9,18 +16,17 @@
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-image: initial;
- margin-left: 50px;
+    margin-left: 50px;
 
-  
+
 }
-body{
-    overflow-x: hidden;
-}
-.div_imag img{
+
+
+.div_imag img {
     width: 31.8vw;
     height: 100%;
     max-width: 31.9vw;
-   
+
     vertical-align: middle;
     display: inline-block;
     max-width: 100%;
@@ -29,34 +35,36 @@ body{
     border-color: initial;
     border-image: initial;
 }
-    
-.top_section{
-     display: flex;
+
+.top_section {
+    display: flex;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
     margin-top: -30px;
 }
-.scotch-top{
 
-     width: 14vw;
-  position: absolute;
-  z-index: 10;
-  /* top: 50%;
+.scotch-top {
+
+    width: 14vw;
+    position: absolute;
+    z-index: 10;
+    /* top: 50%;
   left: 50%;
   transform: translate(-50%,-50%); */
-  margin-left: 40px;
+    margin-left: 40px;
 }
-.scotch-top img{
-    
-   position: relative;
+
+.scotch-top img {
+
+    position: relative;
 
     max-width: 100%;
     opacity: 0.7;
 }
 
-.bottom_section{
+.bottom_section {
     /* margin-top: 1000px; */
     padding-top: 40px;
     width: 60%;
@@ -64,90 +72,91 @@ body{
     margin: auto;
     text-align: end;
 }
+
 .thetext {
     font-size: 29px;
     padding: 20px;
     align-items: center;
     display: flex;
 }
-.thetext p{
-    font-size:25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.thetext p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
     font-weight: 500;
 
 }
-.the_button{
+
+.the_button {
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
 }
 
 
-.instgram{
+.instgram {
     margin: px;
     font-size: 30px;
 
 
 }
-.link{
+
+.link {
     text-decoration: none;
     color: #141414;
     display: flex;
 }
+
 /* Small screens */
 @media (max-width: 728px) {
 
-    .i-section{
+    .i-section {
         /* width: 98%; */
         margin: auto;
     }
+
     .div_imag {
-width: 11rem;
-height: 20.5rem;
-         margin-left: 10px;
-        
-    }
+        /* width: 11rem;
+        height: 20.5rem; */
+
+        width: 70vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     
-      .div_imag  img{
+
+    }
+
+    .div_imag img {
         width: 100%;
-        height: 100%;
+        height: auto;
         object-fit: cover;
-      }
+    }
+
     .top_section {
         position: relative;
         left: auto;
         top: auto;
-        margin:  auto ;
-        width: 95%;
+        margin: auto;
+
         /* margin-left: px; */
         margin-top: -100px;
+        overflow-x: hidden;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
 
-        
+
     }
-    
+
     .bottom_section {
         text-align: center;
+
     }
-    
-    
+
+    .link {
+        font-size: 15px;
+    }
+
 }
-
-/* Extra small screens */
-/* @media (max-width: 480px) {
-    .div_imag {
-         max-width: 220px;
-         margin-left: 10px;
-
-    }
-    
-    .thetext p {
-        text-align: center;
-    }
-    
-    .the_button {
-        flex-direction: row
-        ;
-        align-items: center;
-    }
-} */

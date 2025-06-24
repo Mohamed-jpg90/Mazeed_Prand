@@ -70,7 +70,28 @@
 .header-logo img {
   height: auto;
   width: 80px;
-  margin-top: -12px;
+  margin-top: -20px;
+}
+
+.header-wrap {
+    width: 25%;
+}
+.the_container1{
+    position: relative;
+}
+
+.container-navbar {
+    position: fixed;
+
+
+
+  width: 100%;
+  background-color: transparent;
+
+  justify-content: space-around;
+
+  padding: 0px 0px;
+
 }
 
 
