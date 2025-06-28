@@ -339,16 +339,16 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `${img_1}`, text: 'Bridge' },
-      { image: `${img_2}`, text: 'Desk Setup' },
-      { image: `${img_3}`, text: 'Desk Setup' },
-      { image: `${img_4}`, text: 'Desk Setup' },
-      { image: `${img_5}`, text: 'Desk Setup' },
-      { image: `${img_6}`, text: 'Desk Setup' },
-      { image: `${img_7}`, text: 'Desk Setup' },
-      { image: `${img_8}`, text: 'Desk Setup' },
-      { image: `${img_10}`, text: 'Desk Setup' },
-      { image: `${img_9}`, text: 'Desk Setup' },
+      { image: `${img_1}`, text: 'COLLECTION' },
+      { image: `${img_2}`, text: 'COLLECTION' },
+      { image: `${img_3}`, text: 'COLLECTION' },
+      { image: `${img_4}`, text: 'COLLECTION' },
+      { image: `${img_5}`, text: 'COLLECTION' },
+      { image: `${img_6}`, text: 'COLLECTION' },
+      { image: `${img_7}`, text: 'COLLECTION' },
+      { image: `${img_8}`, text: 'COLLECTION' },
+      { image: `${img_10}`, text: 'COLLECTION' },
+      { image: `${img_9}`, text: 'COLLECTION' },
    
     ]
     const galleryItems = items && items.length ? items : defaultItems

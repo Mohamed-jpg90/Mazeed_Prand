@@ -16,43 +16,43 @@ function Services() {
       <div class="option">
 <LuAlarmClock />
       </div>
-      <h2>Real Time Problem Solution</h2>
-      <p>Build your beautiful agency website with us that converts more visitors than any other website and the ability to interact and rotate products to solve user problems.</p>
+      <h2>Real-Time Home Styling</h2>
+      <p>Explore handmade home décor with real-time previews, rotate products, match your style, and bring instant charm and elegance to every corner of your home.</p>
     </div>
     <div class="card">
             <div class="option">
 <LuWallet />
       </div>
       <h2>Safe & Secured Payments</h2>
-      <p>Build your beautiful agency website with us that converts more visitors than any other website and the ability to interact and rotate products to solve user problems.</p>
+      <p>Enjoy worry-free shopping with secure payment methods, full encryption, and trusted gateways that protect your data and guarantee a smooth, safe checkout experience every time.</p>
     </div>
     <div class="card">
             <div class="option">
 <BsHeadset />
       </div>
       <h2>Customer Support 24/7</h2>
-      <p>Build your beautiful agency website with us that converts more visitors than any other website and the ability to interact and rotate products to solve user problems.</p>
+      <p>Get the help you need anytime with our friendly support team, available 24/7 to answer questions, solve issues, and make your shopping experience easier.</p>
     </div>
     <div class="card">
             <div class="option">
 <BsClipboard2Check />
       </div>
       <h2>Quick & Easy Transaction</h2>
-      <p>Build your beautiful agency website with us that converts more visitors than any other website and the ability to interact and rotate products to solve user problems.</p>
+      <p>Experience fast and hassle-free transactions with our smooth checkout process, multiple payment options, and a user-friendly system designed to save you time.</p>
     </div>
     <div class="card">
             <div class="option">
 <AiOutlineSafetyCertificate />
       </div>
       <h2>Worldwide Certified</h2>
-      <p>Build your beautiful agency website with us that converts more visitors than any other website and the ability to interact and rotate products to solve user problems.</p>
+      <p>Our products meet global quality standards and are certified for safety, durability, and design — trusted by customers around the world for their excellence.</p>
     </div>
     <div class="card">
             <div class="option ">
 <FaAnglesDown />
       </div>
       <h2>Lesser Cost</h2>
-      <p>Build your beautiful agency website with us that converts more visitors than any other website and the ability to interact and rotate products to solve user problems.</p>
+      <p>Enjoy premium handmade décor without the premium price. We offer high-quality pieces at budget-friendly rates, so you can style your space affordably and beautifully.</p>
     </div>
   </div>
     </div>

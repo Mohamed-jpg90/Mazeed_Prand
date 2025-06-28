@@ -28,7 +28,7 @@ function section2() {
         <Button padding={70} disabled={false} magnetStrength={200} >
           <div className='the_button'>
             <div className='thetext'>
-            <Link to="/" className='link' > <p>MAZEED_</p> 
+            <Link to="https://www.instagram.com/__mazeed_/" className='link' > <p>MAZEED_</p> 
                 <FaInstagram className='instgram' />
                 </Link>
 

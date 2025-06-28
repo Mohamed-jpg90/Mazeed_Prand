@@ -35,10 +35,13 @@ function Home2() {
         enableBlur={true}
         baseRotation={5}
         blurStrength={10}
+        id="About_us"
       >
-        When does a man die? When he is hit by a bullet? No! When he suffers a disease?
-        No! When he ate a soup made out of a poisonous mushroom?
-        No! A man dies when he is forgotten!
+We’re a handmade home décor brand that adds a special touch to your space. With unique colors, elegant designs, and great prices, our pieces bring warmth and style to any room.
+
+Made with care. Delivered to your door.
+
+
       </ScrollReveal>
       {/* </div> */}
 
@@ -78,7 +81,7 @@ function Home2() {
       <br />
 
       <div className='theContainer_ofProducts' >
-        <h2>Transfer Money Anytime, Anywhere</h2>
+        <h2>What Makes Us Different</h2>
         <div className='line'></div>
       </div>
 

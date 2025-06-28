@@ -9,9 +9,9 @@ function Slide() {
 
 
         <div className='slide-wrap'>
-            <div className='sl-wrap1'> <Link to="/" className='sl-wrap'>SHOP</Link>    </div>
-            <div className='sl-wrap1'>         <Link to="/" className='sl-wrap'>COLLECTIONs</Link>   </div>
-            <div className='sl-wrap1'>   <Link to="/" className='sl-wrap'>About</Link>    </div>
+            <div className='sl-wrap1'> <Link to="/Product" className='sl-wrap'>SHOP</Link>    </div>
+            <div className='sl-wrap1'>         <Link to="/Product" className='sl-wrap'>COLLECTIONs</Link>   </div>
+            <div className='sl-wrap1'>   <Link to="#About_us" className='sl-wrap'>About</Link>    </div>
 
 
 

@@ -14,11 +14,9 @@ function Footer() {
     <div className='footer-container65'>
       <section className='footer-subscription65'>
         <p className='footer-subscription-heading65'>
-          Join the Adventure newsletter to receive our best vacation deals
+         It’s not just décor, it’s a handmade experience designed to reflect your style and elevate every corner of your space.
         </p>
-        <p className='footer-subscription-text65'>
-          You can unsubscribe at any time.
-        </p>
+
         <div className='input-areas65'>
           <form>
             {/* <input
@@ -118,6 +116,16 @@ function Footer() {
             </Link>
           </div>
         </div>
+  <div style={{
+  textAlign: "center",
+  padding: "20px",
+
+  fontSize: "14px",
+color:"#fff"
+}}>
+  &copy; 2025 All rights reserved. Developed by <Link className='link88' to="https://www.instagram.com/mo.maged__/">Mohamed Maged</Link>.
+</div>
+
       </section>
     </div>
   );
