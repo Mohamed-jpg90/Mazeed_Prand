@@ -76,7 +76,7 @@ function Footer() {
           <div className='social-icons65'>
             <Link
               className='social-icon-link65 facebook65'
-              to='/'
+              to='https://www.facebook.com/share/166F3BwSHD/'
               target='_blank'
               aria-label='Facebook'
             >
@@ -84,7 +84,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link65 instagram65'
-              to='/'
+              to='https://www.instagram.com/__mazeed_/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -92,7 +92,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link65 youtube65'
-              to='/'
+              to='https://www.facebook.com/share/166F3BwSHD/'
               target='_blank'
               aria-label='Youtube'
             >
