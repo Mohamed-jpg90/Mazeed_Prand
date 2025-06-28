@@ -92,7 +92,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link65 youtube65'
-              to='https://www.facebook.com/share/166F3BwSHD/'
+              to='https://www.tiktok.com/@mazeed792?_t=ZS-8vijzGgLeNU&_r=1'
               target='_blank'
               aria-label='Youtube'
             >
