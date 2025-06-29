@@ -6,7 +6,7 @@ function BanerOfProducts() {
   return (
     <div className='container_of_products'>
 
-<Move FName="OUR" SName="Porducts"/>
+<Move FName="OUR" SName="Products"/>
     </div>
   )
 }
